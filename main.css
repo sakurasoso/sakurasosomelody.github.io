@@ -1,25 +1,26 @@
 body{
     align-self: center;
     background-color: rgb(28, 13, 119);
+    padding: 0;
 }
 .sound_button{
     width: 150px;
     height: 150px;
     border-radius: 5%;
-    margin:10px;
-    background: radial-gradient(rgb(248, 248, 248), rgb(13, 65, 207));
+    margin:13px;
+    background: radial-gradient(rgb(248, 248, 248), rgb(13, 74, 207));
     border: none;
     outline: none;
 }
 .sound_button:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(7, 114, 236));
+    background: radial-gradient(rgb(248, 248, 248), rgb(7, 99, 236));
     border: none;
 }
 #sound_2_bt{
     background: radial-gradient(rgb(248, 248, 248), rgb(236, 7, 7));
 }
 #sound_2_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(236, 72, 7));
+    background: radial-gradient(rgb(248, 248, 248), rgb(236, 80, 7));
 }
 #sound_3_bt{
     background: radial-gradient(rgb(248, 248, 248), rgb(15, 236, 7));
