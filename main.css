@@ -1,0 +1,17 @@
+body{
+    align-self: center;
+    background-color: rgb(15, 5, 77);
+}
+.sound_button{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    margin:10px;
+    background: radial-gradient(rgb(248, 248, 248), rgb(13, 65, 207));
+    border: none;
+    outline: none;
+}
+.sound_button:active{
+    background: radial-gradient(rgb(248, 248, 248), rgb(7, 210, 236));
+    border: none;
+}
