@@ -23,10 +23,10 @@ body{
     background: radial-gradient(rgb(248, 248, 248), rgb(236, 80, 7));
 }
 #sound_3_bt{
-    background: radial-gradient(rgb(248, 248, 248), rgb(15, 236, 7));
+    background: radial-gradient(rgb(248, 248, 248), rgb(1, 235, 13));
 }
 #sound_3_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(80, 236, 7));
+    background: radial-gradient(rgb(248, 248, 248), rgb(60, 236, 7));
 }
 #sound_4_bt{
     background: radial-gradient(rgb(248, 248, 248), rgb(182, 7, 236));
