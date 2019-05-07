@@ -14,10 +14,12 @@ ply_buttons[2].onclick = function(){ply_sd(sound3)};
 ply_buttons[3].onclick = function(){ply_sd(sound4)};
 ply_buttons[4].onclick = function(){ply_sd(sound5)};
 ply_buttons[5].onclick = function(){ply_sd(sound6)};
-/*
-document.oncontextmenu = function(){
-    event.returnValue = false;
-}*/
+
+var whole_html = document.getElementsByTagName("html")[0];
+var buttons = document.getElementsByClassName("buttons")[0];
+var top_pos =  ((whole_html.offsetHeight - buttons.offsetHeight)/2) + "px";
+console.log(typeof(top_pos));
+buttons.style.top = top_pos;
 document.getElementsByTagName("button").oncontextmenu = function(){
     event.returnValue = false;
 }
