@@ -8,12 +8,12 @@ var sound4  = document.getElementById("sound_4");
 var sound5  = document.getElementById("sound_5");
 var sound6  = document.getElementById("sound_6");
 
-ply_buttons[0].onclick = function(){cont(sound1)};
-ply_buttons[1].onclick = function(){cont(sound2)};
-ply_buttons[2].onclick = function(){cont(sound3)};
-ply_buttons[3].onclick = function(){cont(sound4)};
-ply_buttons[4].onclick = function(){cont(sound5)};
-ply_buttons[5].onclick = function(){cont(sound6)};
+ply_buttons[0].onclick = function(){ply_sd(sound1)};
+ply_buttons[1].onclick = function(){ply_sd(sound2)};
+ply_buttons[2].onclick = function(){ply_sd(sound3)};
+ply_buttons[3].onclick = function(){ply_sd(sound4)};
+ply_buttons[4].onclick = function(){ply_sd(sound5)};
+ply_buttons[5].onclick = function(){ply_sd(sound6)};
 /*
 document.oncontextmenu = function(){
     event.returnValue = false;
@@ -32,20 +32,7 @@ function st(sound){
 }
 
 
-function cont(sound){
-    /*
-    var playPromise = sound.play();
-    if (playPromise !== undefined) {
-        playPromise.then(_ => {
-          sound.pause();
-        })
-        .catch(error => {
-            console.log("worked")
-            sound.currentTime = 0;
-            sound.play();
-        });
-      }
-      */
+function ply_sd(sound){
      sound.currentTime = 0;
             sound.play();
 }
