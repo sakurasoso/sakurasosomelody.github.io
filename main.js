@@ -36,5 +36,5 @@ function st(sound){
 
 function ply_sd(sound){
      sound.currentTime = 0;
-            sound.play();
+     sound.cloneNode().play();
 }
