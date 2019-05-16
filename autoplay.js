@@ -31,51 +31,51 @@ var play = function(note){
         ply_buttons[0].onclick();
         ply_buttons[0].classList.add("show");
         setTimeout( ()=>ply_buttons[0].classList.remove('show'),intv );
-        console.log("auto playing sound"+note);
+        //console.log("auto playing sound"+note);
     }
     else if( note === "2"){
         ply_buttons[1].onclick();
         ply_buttons[1].classList.add("show");
         setTimeout( ()=>ply_buttons[1].classList.remove('show'),intv );
-        console.log("auto playing sound"+note);
+        //console.log("auto playing sound"+note);
     }
     else if( note === "3"){
         ply_buttons[2].onclick();
         ply_buttons[2].classList.add("show");
         setTimeout( ()=>ply_buttons[2].classList.remove('show'),intv );
-        console.log("auto playing sound"+note);
+        //console.log("auto playing sound"+note);
     }
     else if( note === "4"){
         ply_buttons[3].onclick();
         ply_buttons[3].classList.add("show");
         setTimeout( ()=>ply_buttons[3].classList.remove('show'),intv );
-        console.log("auto playing sound"+note);
+        //console.log("auto playing sound"+note);
     }
     else if( note === "5"){
         ply_buttons[4].onclick();
         ply_buttons[4].classList.add("show");
         setTimeout( ()=>ply_buttons[4].classList.remove('show'),intv );
-        console.log("auto playing sound"+note);
+        //console.log("auto playing sound"+note);
     }
     else if( note === "6"){
         ply_buttons[5].onclick();
         ply_buttons[5].classList.add("show");
         setTimeout( ()=>ply_buttons[5].classList.remove('show'),intv );
-        console.log("auto playing sound"+note);
+        //console.log("auto playing sound"+note);
     }
     else if( note === "7"){
         ply_buttons[6].onclick();
         ply_buttons[6].classList.add("show");
         setTimeout( ()=>ply_buttons[6].classList.remove('show'),intv );
-        console.log("auto playing sound"+note);
+        //console.log("auto playing sound"+note);
     }
     else if( note === "8"){
         ply_buttons[7].onclick();
         ply_buttons[7].classList.add("show");
         setTimeout( ()=>ply_buttons[7].classList.remove('show'),intv );
-        console.log("auto playing sound"+note);
+        //console.log("auto playing sound"+note);
     }
     else {
-        console.log("auto playing sound 0");
+        //console.log("auto playing sound 0");
     }
 }

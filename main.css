@@ -27,10 +27,28 @@ body{
     border: none;
     outline: none;
 }
+@media screen and (min-height: 1000px) {
+    .sound_button{
+        width: 180px;
+        height: 180px;
+    }
+  }
 .sound_button:active{
     background: radial-gradient(rgb(248, 248, 248), rgb(7, 99, 236));
     border: none;
 }
+@media screen and (max-height: 800px) {
+    .sound_button{
+        width: 140px;
+        height: 140px;
+    }
+  }
+@media screen and (max-height: 750px) {
+    .sound_button{
+        width: 130px;
+        height: 130px;
+    }
+  }
 @media screen and (max-height: 700px) {
     .sound_button{
         width: 120px;
@@ -101,7 +119,8 @@ body{
 .list{
     background-color: black;
     font-size: 24px;
-    color: white
+    color: white;
+    margin: 5px;
 }
 
 #start{
