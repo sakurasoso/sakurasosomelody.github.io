@@ -76,3 +76,24 @@ body{
 .show{
     border:5px red solid;
 }
+
+.playlist{
+
+    z-index:99999;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+}
+
+.list{
+    background-color: black;
+    font-size: 24px;
+    color: white
+}
+
+#start{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}

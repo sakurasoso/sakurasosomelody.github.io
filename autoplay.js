@@ -10,7 +10,9 @@
 //8 - C
 var songscript_1 ="012345678";
 var songscript_2 ="333033303512300444404333032232050"+"3330333035123000444433355431000"//jingle bell
-
+var chosensong = songscript_2;
+var auto_button  = document.getElementById("start");
+auto_button.addEventListener("click",function(){auto_play(chosensong)})
 
 var auto_play = function(songlist){
     var note = "";
