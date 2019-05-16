@@ -7,6 +7,7 @@ var sound3  = document.getElementById("sound_3");
 var sound4  = document.getElementById("sound_4");
 var sound5  = document.getElementById("sound_5");
 var sound6  = document.getElementById("sound_6");
+var sound7  = document.getElementById("sound_7");
 var sound8  = document.getElementById("sound_8");
 
 ply_buttons[0].onclick = function(){ply_sd(sound1);console.log("playing sound1")};
