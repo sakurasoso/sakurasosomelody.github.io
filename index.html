@@ -6,33 +6,43 @@
 
         <link rel="stylesheet" type="text/css" href="./main.css">
         <script src="./main.js" charset="utf-8" defer></script>
+        <script src="./autoplay.js" charset="utf-8" defer></script>
 
     </head>
     <body>
         <div class="sounds">
-                <audio  id ="sound_1" src="./kalimba/58712__arioke__kalimba-lam09-bb3-tip-med.wav"  preload="none"></audio>
-                <audio  id ="sound_2" src="./kalimba/58711__arioke__kalimba-lam08-a3-tip-soft.wav"  preload="none"></audio>
-                <audio  id ="sound_3" src="./kalimba/58707__arioke__kalimba-lam06-f3-tip-soft.wav"  preload="none"></audio>
+                <audio  id ="sound_1" src="./kalimba/58702__arioke__kalimba-lam04-d3-tip-med.wav"  preload="none"></audio>
+                <audio  id ="sound_2" src="./kalimba/58704__arioke__kalimba-lam05-e3-tip-med.wav"  preload="none"></audio>
+                <audio  id ="sound_3" src="./kalimba/58706__arioke__kalimba-lam06-f3-tip-med.wav"  preload="none"></audio>
                 <audio  id ="sound_4" src="./kalimba/58708__arioke__kalimba-lam07-g3-tip-med.wav"  preload="none"></audio>
-                <audio  id ="sound_5" src="./kalimba/58704__arioke__kalimba-lam05-e3-tip-med.wav"  preload="none"></audio>
-                <audio  id ="sound_6" src="./kalimba/58702__arioke__kalimba-lam04-d3-tip-med.wav"  preload="none"></audio>
+                <audio  id ="sound_5" src="./kalimba/58710__arioke__kalimba-lam08-a3-tip-med.wav"  preload="none"></audio>
+                <audio  id ="sound_6" src="./kalimba/58712__arioke__kalimba-lam09-bb3-tip-med.wav"  preload="none"></audio>
+                <audio  id ="sound_7" src="./kalimba/58714__arioke__kalimba-lam10-c4-tip-med.wav"  preload="none"></audio>
+                <audio  id ="sound_8" src="./kalimba/58716__arioke__kalimba-lam11-d4-tip-med.wav"  preload="none"></audio>
+        </div>
+        <div class="playlist">
+            <select class="list">
+                <option value="1">test</option>
+                <option value="2">jingle bell</option>
+              </select>
+              <div><button id="start">PLAY</button></div>
         </div>
         <div class = "buttons">
             <div class = "bt_set">
-                <button class="sound_button" id="sound_1_bt"> c</button>
-                <button class="sound_button" id="sound_2_bt"> a</button>
+                <button class="sound_button" id="sound_1_bt"> C</button>
+                <button class="sound_button" id="sound_2_bt"> D</button>
             </div>
             <div class = "bt_set">
-                <button class="sound_button" id="sound_3_bt"> f</button>
-                <button class="sound_button" id="sound_4_bt"> g</button>
+                <button class="sound_button" id="sound_3_bt"> E</button>
+                <button class="sound_button" id="sound_4_bt"> F</button>
             </div>
             <div class = "bt_set">
-                    <button class="sound_button" id="sound_5_bt"> e</button>
-                    <button class="sound_button" id="sound_6_bt"> d</button>
+                    <button class="sound_button" id="sound_5_bt"> G</button>
+                    <button class="sound_button" id="sound_6_bt"> A</button>
             </div>
             <div class = "bt_set">
-                    <button class="sound_button" id="sound_7_bt"> d</button>
-                    <button class="sound_button" id="sound_8_bt"> d</button>
+                    <button class="sound_button" id="sound_7_bt"> B</button>
+                    <button class="sound_button" id="sound_8_bt"> C2</button>
             </div>
         </div>
     </body>
