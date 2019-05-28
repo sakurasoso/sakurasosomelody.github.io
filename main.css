@@ -30,13 +30,19 @@ body{
     border: none;
     outline: none;
     font-family: 'Cute Font', cursive;
-    font-size: 150px;
+    font-size: 100px;
     color:aliceblue;
 }
 @media screen and (min-height: 1000px) {
     .sound_button{
         width: 180px;
         height: 180px;
+    }
+  }
+  @media screen and (min-height: 900px) {
+    .sound_button{
+        width: 150px;
+        height: 150px;
     }
   }
 .sound_button:active{

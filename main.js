@@ -29,6 +29,7 @@ document.getElementsByTagName("button").oncontextmenu = function(){
 
 whole_html.onresize = function(){
     var top_pos =  ((whole_html.offsetHeight - buttons.offsetHeight)/2) + "px";
+    console.log(top_pos);
     buttons.style.top = top_pos;
 }
 function ply(sound){
