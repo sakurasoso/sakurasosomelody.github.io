@@ -13,8 +13,15 @@ var songscript_2 ="333033303512300444404333032232050"+"3330333035123000444433355
 var songscript_3 ="11556650443322105544332055443320115566504433221" //C C G G A A G 0 F F E E D D C 0 G G F F E E D 0 G G F F E E D 0 C C G G A A G 0 F F E E D D C
 var songlist = [songscript_1, songscript_2, songscript_3]
 var chosensong = songscript_3;
+var choice = document.getElementsByClassName("list")[0];
 var auto_button  = document.getElementById("start");
-auto_button.addEventListener("click",function(){auto_play(chosensong)})
+auto_button.addEventListener("click",
+    function(){
+        chosensong = songlist[choice.value-1];
+        console.log(songlist[choice.value-1])
+        auto_play(chosensong);
+
+    })
 
 var auto_play = function(songlist){
     var note = "";
