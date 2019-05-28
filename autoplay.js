@@ -8,6 +8,8 @@
 //6 - A
 //7 - B
 //8 - C
+
+var notes =[];
 var songscript_1 ="012345678";
 var songscript_2 ="333033303512300444404333032232050"+"3330333035123000444433355431000"//jingle bell
 var songscript_3 ="11556650443322105544332055443320115566504433221" //C C G G A A G 0 F F E E D D C 0 G G F F E E D 0 G G F F E E D 0 C C G G A A G 0 F F E E D D C
@@ -25,18 +27,31 @@ auto_button.addEventListener("click",
 
     })
 
-var auto_play = function(songlist){
+var auto_play = function(songlist)
+{
     var note = "";
     for(var i=0;i<songlist.length;i++){
         (function(note){
         note = songlist[i];
+        
         //console.log("note "+note);
-        setTimeout( ()=>play(note) ,i*450);
+        var temp = setTimeout( ()=>play(note) ,i*450);
+        notes.push(temp);
         })(note)
     }
 }
 
-var play = function(note){
+var stop_play = function()
+{
+    for(var i = 0;i < notes.length; i++)
+    {
+        clearTimeout(notes[i]);
+    }
+    notes = [];
+}
+
+var play = function(note)
+{
     var intv = 300;
     if( note === "1"){
         ply_buttons[0].onclick();
