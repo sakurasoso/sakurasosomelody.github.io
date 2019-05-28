@@ -25,7 +25,7 @@ body{
     height: 150px;
     border-radius: 5%;
     margin:13px;
-    background: radial-gradient(rgb(200, 253, 245), rgb(3, 63, 194));
+    background: radial-gradient(rgb(252, 253, 200), rgb(255, 238, 0));
     border: none;
     outline: none;
 }
@@ -36,7 +36,7 @@ body{
     }
   }
 .sound_button:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(17, 105, 236));
+    background: radial-gradient(rgb(249, 255, 196), rgb(251, 255, 30));
     border: none;
 }
 @media screen and (max-height: 800px) {
@@ -65,46 +65,46 @@ body{
     }
   }
 #sound_2_bt{
-    background: radial-gradient(rgb(252, 198, 216), rgb(236, 7, 7));
+    background: radial-gradient(rgb(223, 255, 219), rgb(0, 194, 10));
 }
 #sound_2_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(236, 80, 7));
+    background: radial-gradient(rgb(248, 248, 248), rgb(0, 233, 31));
 }
 #sound_3_bt{
-    background: radial-gradient(rgb(248, 248, 248), rgb(1, 235, 52));
+    background: radial-gradient(rgb(255, 210, 210), rgb(255, 60, 0));
 }
 #sound_3_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(60, 236, 7));
+    background: radial-gradient(rgb(255, 211, 211), rgb(255, 96, 33));
 }
 #sound_4_bt{
-    background: radial-gradient(rgb(248, 248, 248), rgb(182, 7, 236));
+    background: radial-gradient(rgb(192, 246, 255), rgb(31, 210, 255));
 }
 #sound_4_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(198, 7, 236));
+    background: radial-gradient(rgb(207, 244, 255), rgb(52, 214, 255));
 }
 #sound_5_bt{
-    background: radial-gradient(rgb(248, 248, 248), rgb(236, 7, 95));
+    background: radial-gradient(#fdd8d3, rgb(255, 76, 21));
 }
 #sound_5_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(236, 7, 133));
+    background: radial-gradient(rgb(248, 248, 248), rgb(255, 70, 37));
 }
 #sound_6_bt{
-    background: radial-gradient(rgb(248, 248, 248), rgb(236, 232, 7));
+    background: radial-gradient(rgb(235, 206, 255), rgb(167, 14, 255));
 }
 #sound_6_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(251, 255, 0));
+    background: radial-gradient(rgb(233, 200, 255), rgb(141, 47, 248));
 }
 #sound_8_bt{
-    background: radial-gradient(rgb(248, 248, 248), rgb(7, 171, 236));
+    background: radial-gradient(rgb(238, 212, 253), rgb(68, 7, 236));
 }
 #sound_8_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(0, 217, 255));
+    background: radial-gradient(rgb(239, 216, 255), rgb(132, 40, 252));
 }
 #sound_7_bt{
-    background: radial-gradient(rgb(248, 248, 248), rgb(187, 255, 0));
+    background: radial-gradient(rgb(248, 248, 248), rgb(230, 129, 255));
 }
 #sound_7_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(217, 255, 0));
+    background: radial-gradient(rgb(248, 248, 248), rgb(235, 154, 255));
 }
 
 .show{
