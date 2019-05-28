@@ -158,6 +158,8 @@ body{
 
 .hidden{
     display: none;
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
