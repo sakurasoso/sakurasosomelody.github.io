@@ -19,13 +19,30 @@ var songlist = [songscript_1, songscript_2, songscript_3,songscript_4,songscript
 var chosensong = songscript_3;
 var choice = document.getElementsByClassName("list")[0];
 var auto_button  = document.getElementById("start");
+var stop_button  = document.getElementById("stop");
+
+stop_button.addEventListener("click",
+    function()
+    {
+        stop_play();
+        
+        auto_button.classList.remove("hidden");
+        stop_button.classList.add("hidden");
+    }
+)
 auto_button.addEventListener("click",
-    function(){
+    function()
+    {
         chosensong = songlist[choice.value-1];
         console.log(songlist[choice.value-1])
         auto_play(chosensong);
 
-    })
+        auto_button.classList.add("hidden");
+        stop_button.classList.remove("hidden");
+
+
+    }
+)
 
 var auto_play = function(songlist)
 {
