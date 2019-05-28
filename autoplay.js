@@ -8,7 +8,7 @@
 //6 - A
 //7 - B
 //8 - C
-
+var nathan;
 var notes =[];
 var songscript_1 ="012345678";
 var songscript_2 ="333033303512300444404333032232050"+"3330333035123000444433355431000"//jingle bell
@@ -24,10 +24,7 @@ var stop_button  = document.getElementById("stop");
 stop_button.addEventListener("click",
     function()
     {
-        stop_play();
-        
-        auto_button.classList.remove("hidden");
-        stop_button.classList.add("hidden");
+        end();
     }
 )
 auto_button.addEventListener("click",
@@ -43,7 +40,13 @@ auto_button.addEventListener("click",
 
     }
 )
-
+var end = function()
+{
+    stop_play();
+        
+        auto_button.classList.remove("hidden");
+        stop_button.classList.add("hidden");
+}
 var auto_play = function(songlist)
 {
     var note = "";
@@ -55,6 +58,10 @@ var auto_play = function(songlist)
         var temp = setTimeout( ()=>play(note) ,i*450);
         notes.push(temp);
         })(note)
+    if(i === (songlist.length-1))
+    {
+        nathan = setTimeout( ()=>end() ,(songlist.length-1)*450);
+    }
     }
 }
 
@@ -63,8 +70,10 @@ var stop_play = function()
     for(var i = 0;i < notes.length; i++)
     {
         clearTimeout(notes[i]);
+        clearTimeout(nathan);
     }
     notes = [];
+    nathan = null;
 }
 
 var play = function(note)
