@@ -24,7 +24,7 @@ var buttons = document.getElementsByClassName("buttons")[0];
 var top_pos =  ((whole_html.offsetHeight - buttons.offsetHeight)/2) + "px";
 buttons.style.top = top_pos;
 document.getElementsByTagName("button").oncontextmenu = function(){
-    event.returnValue = false;
+    event.returnValue = true;
 }
 
 whole_html.onresize = function(){
