@@ -10,14 +10,14 @@ var sound6  = document.getElementById("sound_6");
 var sound7  = document.getElementById("sound_7");
 var sound8  = document.getElementById("sound_8");*/
 
-var sound1 = new Audio('./src/kalimba/c3.mp3');
-var sound2 = new Audio('./src/kalimba/d3.wav');
-var sound3 = new Audio('./src/kalimba/e3.wav');
-var sound4 = new Audio('./src/kalimba/f3.wav');
-var sound5 = new Audio('./src/kalimba/g3.wav');
-var sound6 = new Audio('./src/kalimba/a3.wav');
-var sound7 = new Audio('./src/kalimba/b3.mp3');
-var sound8 = new Audio('./src/kalimba/c4.mp3');
+var sound1 = new Audio('./src/kalimba/c3.aac');
+var sound2 = new Audio('./src/kalimba/d3.aac');
+var sound3 = new Audio('./src/kalimba/e3.aac');
+var sound4 = new Audio('./src/kalimba/f3.aac');
+var sound5 = new Audio('./src/kalimba/g3.aac');
+var sound6 = new Audio('./src/kalimba/a3.aac');
+var sound7 = new Audio('./src/kalimba/b3.aac');
+var sound8 = new Audio('./src/kalimba/c4.aac');
 
 
 ply_buttons[0].onclick = function(){ply_sd(sound1);};
