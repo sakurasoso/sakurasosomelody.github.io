@@ -43,12 +43,14 @@ body{
     .sound_button{
         width: 180px;
         height: 180px;
+        font-size: 150px;
     }
   }
   @media screen and (min-height: 900px) {
     .sound_button{
         width: 150px;
         height: 150px;
+        font-size: 140px;
     }
   }
 .sound_button:active{
@@ -59,18 +61,21 @@ body{
     .sound_button{
         width: 140px;
         height: 140px;
+        font-size: 120px;
     }
   }
 @media screen and (max-height: 750px) {
     .sound_button{
         width: 130px;
         height: 130px;
+        font-size: 100px;
     }
   }
 @media screen and (max-height: 700px) {
     .sound_button{
         width: 120px;
         height: 120px;
+        font-size: 80px;
     }
   }
   @media screen and (max-height: 600px) {
@@ -78,6 +83,31 @@ body{
         width: 100px;
         height: 100px;
         margin:8px;
+        font-size: 70px;
+    }
+  }
+  @media screen and (max-height: 500px) {
+    .sound_button{
+        width: 90px;
+        height: 90px;
+        margin:8px;
+        font-size: 60px;
+    }
+  }
+  @media screen and (max-height: 400px) {
+    .sound_button{
+        width: 60px;
+        height: 60px;
+        margin:8px;
+        font-size: 40px;
+    }
+  }
+  @media screen and (max-height: 300px) {
+    .sound_button{
+        width: 50px;
+        height: 50px;
+        margin:8px;
+        font-size: 30px;
     }
   }
 #sound_2_bt{
