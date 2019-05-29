@@ -41,25 +41,122 @@ body{
     color:aliceblue;
     opacity: 0.9;
 }
-@media screen and (min-height: 1000px) {
+.sound_button:active{
+    background: radial-gradient(rgb(249, 255, 196), rgb(251, 255, 30));
+    border: none;
+    opacity: 1;
+}
+
+#sound_2_bt{
+    background: radial-gradient(rgb(223, 255, 219), rgb(0, 212, 11));
+}
+
+#sound_3_bt{
+    background: radial-gradient(rgb(255, 210, 210), rgb(255, 60, 0));
+}
+
+#sound_4_bt{
+    background: radial-gradient(rgb(213, 249, 255), rgb(39, 212, 255));
+}
+
+#sound_5_bt{
+    background: radial-gradient(#fdd8d3, rgb(255, 110, 66));
+}
+
+#sound_6_bt{
+    background: radial-gradient(rgb(235, 206, 255), rgb(182, 56, 255));
+}
+
+#sound_8_bt{
+    background: radial-gradient(rgb(238, 212, 253), rgb(109, 56, 255));
+}
+
+#sound_7_bt{
+    background: radial-gradient(rgb(248, 248, 248), rgb(230, 141, 252));
+}
+
+.show{
+    opacity: 1;
+}
+
+.playlist{
+    display: inline;
+}
+
+.list{
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    width:200px;
+}
+
+#start{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    outline: none;
+}
+
+#stop{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media screen and (min-height: 1200px) {
+    .sound_button{
+        width: 250px;
+        height: 250px;
+        font-size: 150px;
+    }
+  }
+  @media screen and (min-height: 1001px) {
+    .sound_button{
+        width: 200px;
+        height: 200px;
+        font-size: 150px;
+    }
+  }
+@media screen and (max-height: 1000px) {
     .sound_button{
         width: 180px;
         height: 180px;
         font-size: 150px;
     }
   }
-  @media screen and (min-height: 900px) {
+  @media screen and (max-height: 900px) {
     .sound_button{
         width: 150px;
         height: 150px;
         font-size: 140px;
     }
   }
-.sound_button:active{
-    background: radial-gradient(rgb(249, 255, 196), rgb(251, 255, 30));
-    border: none;
-    opacity: 1;
-}
+
 @media screen and (max-height: 800px) {
     .sound_button{
         width: 140px;
@@ -113,104 +210,16 @@ body{
         font-size: 30px;
     }
   }
-#sound_2_bt{
-    background: radial-gradient(rgb(223, 255, 219), rgb(0, 212, 11));
-}
 
-/* #sound_2_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(0, 233, 31));
-} */
-#sound_3_bt{
-    background: radial-gradient(rgb(255, 210, 210), rgb(255, 60, 0));
-}
-/* #sound_3_bt:active{
-    background: radial-gradient(rgb(255, 211, 211), rgb(255, 96, 33));
-} */
-#sound_4_bt{
-    background: radial-gradient(rgb(213, 249, 255), rgb(39, 212, 255));
-}
-/* #sound_4_bt:active{
-    background: radial-gradient(rgb(207, 244, 255), rgb(52, 214, 255));
-} */
-#sound_5_bt{
-    background: radial-gradient(#fdd8d3, rgb(255, 110, 66));
-}
-/* #sound_5_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(255, 70, 37));
-} */
-#sound_6_bt{
-    background: radial-gradient(rgb(235, 206, 255), rgb(182, 56, 255));
-}
-/* #sound_6_bt:active{
-    background: radial-gradient(rgb(233, 200, 255), rgb(141, 47, 248));
-} */
-#sound_8_bt{
-    background: radial-gradient(rgb(238, 212, 253), rgb(109, 56, 255));
-}
-/* #sound_8_bt:active{
-    background: radial-gradient(rgb(239, 216, 255), rgb(132, 40, 252));
-} */
-#sound_7_bt{
-    background: radial-gradient(rgb(248, 248, 248), rgb(230, 141, 252));
-}
-/* #sound_7_bt:active{
-    background: radial-gradient(rgb(248, 248, 248), rgb(235, 154, 255));
-} */
-
-.show{
-    opacity: 1;
-}
-
-.playlist{
-    /*position: absolute;
-    left: 10%;
-    top: 10%;*/
-    width: 100%;
-    display: inline;
-
-
-}
-
-.list{
-    background-color: black;
-    font-size: 24px;
-    color: white;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-}
-
-#start{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    border: none;
-    width: 30px;
-    height:30px;
-    border-radius: 50%;
-    outline: none;
-}
-
-#stop{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    border: none;
-    width: 30px;
-    height:30px;
-    border-radius: 50%;
-    outline: none;
-}
-
-.hidden{
-    display: none;
-}
-
-.unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
+  @media screen and (min-height: 900px) {
+    .list{
+        width:300px;
+        font-size:40px;
+    }
+  }
+  @media screen and (max-height: 600px) {
+    .list{
+        width:180px;
+        font-size:20px;
+    }
+  }
