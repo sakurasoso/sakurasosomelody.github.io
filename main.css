@@ -31,6 +31,7 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 5%;
+    padding:0;
     margin:13px;
     background: radial-gradient(rgb(252, 253, 200), rgb(255, 238, 0));
     border: none;
@@ -38,6 +39,7 @@ body{
     font-family: 'Cute Font', cursive;
     font-size: 100px;
     color:aliceblue;
+    opacity: 0.9;
 }
 @media screen and (min-height: 1000px) {
     .sound_button{
@@ -56,6 +58,7 @@ body{
 .sound_button:active{
     background: radial-gradient(rgb(249, 255, 196), rgb(251, 255, 30));
     border: none;
+    opacity: 1;
 }
 @media screen and (max-height: 800px) {
     .sound_button{
@@ -111,50 +114,51 @@ body{
     }
   }
 #sound_2_bt{
-    background: radial-gradient(rgb(223, 255, 219), rgb(0, 194, 10));
+    background: radial-gradient(rgb(223, 255, 219), rgb(0, 212, 11));
 }
-#sound_2_bt:active{
+
+/* #sound_2_bt:active{
     background: radial-gradient(rgb(248, 248, 248), rgb(0, 233, 31));
-}
+} */
 #sound_3_bt{
     background: radial-gradient(rgb(255, 210, 210), rgb(255, 60, 0));
 }
-#sound_3_bt:active{
+/* #sound_3_bt:active{
     background: radial-gradient(rgb(255, 211, 211), rgb(255, 96, 33));
-}
+} */
 #sound_4_bt{
-    background: radial-gradient(rgb(192, 246, 255), rgb(31, 210, 255));
+    background: radial-gradient(rgb(213, 249, 255), rgb(39, 212, 255));
 }
-#sound_4_bt:active{
+/* #sound_4_bt:active{
     background: radial-gradient(rgb(207, 244, 255), rgb(52, 214, 255));
-}
+} */
 #sound_5_bt{
-    background: radial-gradient(#fdd8d3, rgb(255, 76, 21));
+    background: radial-gradient(#fdd8d3, rgb(255, 110, 66));
 }
-#sound_5_bt:active{
+/* #sound_5_bt:active{
     background: radial-gradient(rgb(248, 248, 248), rgb(255, 70, 37));
-}
+} */
 #sound_6_bt{
-    background: radial-gradient(rgb(235, 206, 255), rgb(167, 14, 255));
+    background: radial-gradient(rgb(235, 206, 255), rgb(182, 56, 255));
 }
-#sound_6_bt:active{
+/* #sound_6_bt:active{
     background: radial-gradient(rgb(233, 200, 255), rgb(141, 47, 248));
-}
+} */
 #sound_8_bt{
-    background: radial-gradient(rgb(238, 212, 253), rgb(68, 7, 236));
+    background: radial-gradient(rgb(238, 212, 253), rgb(109, 56, 255));
 }
-#sound_8_bt:active{
+/* #sound_8_bt:active{
     background: radial-gradient(rgb(239, 216, 255), rgb(132, 40, 252));
-}
+} */
 #sound_7_bt{
-    background: radial-gradient(rgb(248, 248, 248), rgb(230, 129, 255));
+    background: radial-gradient(rgb(248, 248, 248), rgb(230, 141, 252));
 }
-#sound_7_bt:active{
+/* #sound_7_bt:active{
     background: radial-gradient(rgb(248, 248, 248), rgb(235, 154, 255));
-}
+} */
 
 .show{
-    border:2px red solid;
+    opacity: 1;
 }
 
 .playlist{
