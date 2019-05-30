@@ -12,7 +12,7 @@ var sound7  = document.getElementById("sound_7");
 var sound8  = document.getElementById("sound_8");
 if ('addEventListener' in document) {
 	document.addEventListener('DOMContentLoaded', function() {
-		//FastClick.attach(document.body);
+		FastClick.attach(document.body);
   }, false);
   sound1.load();
   sound2.load();
@@ -26,6 +26,7 @@ if ('addEventListener' in document) {
 }
 /*
 var sound1 = new Audio('./src/kalimba/c3.aac');
+
 var sound2 = new Audio('./src/kalimba/d3.aac');
 var sound3 = new Audio('./src/kalimba/e3.aac');
 var sound4 = new Audio('./src/kalimba/f3.aac');
@@ -60,6 +61,7 @@ whole_html.onresize = function(){
 }
 function ply(sound){
     sound.play();
+    sound.currentTime = 0.0;
     //ply_button.textContent = " playing ";
 }
 function st(sound){
@@ -71,7 +73,7 @@ function st(sound){
 
 function ply_sd(sound){
      sound.currentTime = 0;
-     sound.cloneNode().load();
+     sound.cloneNode().play();
 }
 
 
