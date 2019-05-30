@@ -12,7 +12,7 @@ var sound7  = document.getElementById("sound_7");
 var sound8  = document.getElementById("sound_8");
 if ('addEventListener' in document) {
 	document.addEventListener('DOMContentLoaded', function() {
-		FastClick.attach(document.body);
+		//FastClick.attach(document.body);
   }, false);
   sound1.load();
   sound2.load();
